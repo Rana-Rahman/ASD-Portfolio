@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syed Asadur Rahman | Portfolio</title>
+  <meta name="description" content="Portfolio of Syed Asadur Rahman - Software Engineer and Frontend Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">SAR<span>.</span></a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certs">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">👋 Hello, I'm</p>
+          <h1>Syed <span class="grad">Asadur Rahman</span></h1>
+          <h2 class="typing">I am a <span id="typed"></span><span class="cursor">|</span></h2>
+          <p class="lead">Software engineer and frontend developer who builds fast, accessible and beautiful web experiences. Currently growing my backend skills and looking for internship opportunities.</p>
+          <div class="btn-row">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+            <a href="#" class="btn ghost" id="cvBtn">⬇ Download CV</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-ring">
+            <img src="images/profile.jpg" alt="Syed Asadur Rahman" class="profile-img" />
+          </div>
+          <div class="float-card c1">💻 Web Dev</div>
+          <div class="float-card c2">🎨 UI Design</div>
+          <div class="float-card c3">🚀 Problem Solver</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="title reveal"><span>01</span> About Me</h2>
+        <div class="about-grid">
+          <div class="reveal">
+            <p>I'm Syed Asadur Rahman, a software engineer based in Dhaka, Bangladesh. I am currently a frontend developer, building clean and responsive user interfaces with HTML, CSS and JavaScript.</p>
+            <p>I am also practicing and strengthening my skills in backend development, and in the future I want to become a full stack developer who can take a product from idea to deployment.</p>
+            <div class="info-list">
+              <div><strong>Name:</strong> Syed Asadur Rahman</div>
+              <div><strong>Location:</strong> Mirpur-2, Dhaka, Bangladesh</div>
+              <div><strong>Email:</strong> asadurrahman219@gmail.com</div>
+              <div><strong>Availability:</strong> Open to internships</div>
+            </div>
+          </div>
+          <div class="stats reveal">
+            <div class="stat"><b data-count="15">0</b><span>Projects Built</span></div>
+            <div class="stat"><b data-count="3">0</b><span>Years Coding</span></div>
+            <div class="stat"><b data-count="8">0</b><span>Certificates</span></div>
+            <div class="stat"><b data-count="5">0</b><span>Awards</span></div>
+          </div>
+        </div>
+
+        <h3 class="sub reveal">Interests & Personality</h3>
+        <div class="chips reveal">
+          <span>📚 Reading</span><span>📷 Photography</span><span>♟️ Chess</span>
+          <span>🏏 Cricket</span><span>🤝 Volunteering</span><span>🎧 Lo-fi Music</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2 class="title reveal"><span>02</span> Skills</h2>
+        <div class="skills-grid">
+          <div class="card reveal">
+            <h3>Technical Skills</h3>
+            <div class="bar"><div class="bar-top"><span>HTML & CSS</span><em>90%</em></div><div class="track"><i data-w="90"></i></div></div>
+            <div class="bar"><div class="bar-top"><span>JavaScript</span><em>82%</em></div><div class="track"><i data-w="82"></i></div></div>
+            <div class="bar"><div class="bar-top"><span>Python</span><em>75%</em></div><div class="track"><i data-w="75"></i></div></div>
+            <div class="bar"><div class="bar-top"><span>React</span><em>70%</em></div><div class="track"><i data-w="70"></i></div></div>
+            <div class="bar"><div class="bar-top"><span>SQL / MySQL</span><em>72%</em></div><div class="track"><i data-w="72"></i></div></div>
+          </div>
+          <div class="card reveal">
+            <h3>Tools & Technologies</h3>
+            <div class="chips tight">
+              <span>Git & GitHub</span><span>VS Code</span><span>Figma</span><span>Node.js</span>
+              <span>Express</span><span>MongoDB</span><span>Bootstrap</span><span>Tailwind</span>
+              <span>Linux</span><span>REST APIs</span><span>Firebase</span><span>Postman</span>
+            </div>
+            <h3 class="mt">Soft Skills</h3>
+            <div class="chips tight">
+              <span>Teamwork</span><span>Communication</span><span>Leadership</span>
+              <span>Time Management</span><span>Critical Thinking</span><span>Adaptability</span>
+            </div>
+            <h3 class="mt">Languages</h3>
+            <div class="chips tight">
+              <span>Bangla (Native)</span><span>English (Fluent)</span><span>Hindi (Basic)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="title reveal"><span>03</span> Academic Background</h2>
+        <div class="timeline">
+          <div class="t-item reveal">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <span class="date">2025 – Present</span>
+              <h3>B.Sc. in Software Engineering</h3>
+              <p class="org">Daffodil International University</p>
+              <p>Current CGPA: 3.17</p>
+            </div>
+          </div>
+          <div class="t-item reveal">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <span class="date">2022 – 2024</span>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p class="org">Vashantek Government College</p>
+              <p>GPA: 4.68</p>
+            </div>
+          </div>
+          <div class="t-item reveal">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <span class="date">2020 – 2022</span>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <p class="org">Monipur High School and College</p>
+              <p>GPA: 4.94</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="title reveal"><span>04</span> Projects</h2>
+        <div class="filters reveal" id="filters">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="web">Web</button>
+          <button data-filter="app">App</button>
+          <button data-filter="data">Data / AI</button>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <article class="project reveal" data-cat="web">
+            <div class="thumb t1"><span>🛒</span></div>
+            <div class="p-body">
+              <h3>ShopEase – E-commerce Store</h3>
+              <p>An online store with product browsing, cart and checkout flow.</p>
+            </div>
+          </article>
+          <article class="project reveal" data-cat="web">
+            <div class="thumb t4"><span>🔎</span></div>
+            <div class="p-body">
+              <h3>Campus Find – Lost &amp; Found</h3>
+              <p>A platform that helps students report and find lost items on campus.</p>
+            </div>
+          </article>
+          <article class="project reveal" data-cat="data">
+            <div class="thumb t3"><span>📈</span></div>
+            <div class="p-body">
+              <h3>Student Result Predictor</h3>
+              <p>A tool that predicts student performance from academic data.</p>
+            </div>
+          </article>
+          <article class="project reveal" data-cat="app">
+            <div class="thumb t5"><span>📚</span></div>
+            <div class="p-body">
+              <h3>LibraryHub – Management System</h3>
+              <p>A system to manage books, members and lending records.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & ROLES -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="title reveal"><span>05</span> Experience & Responsibilities</h2>
+        <div class="timeline">
+          <div class="t-item reveal">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <span class="date">Jun 2025 – Sep 2025</span>
+              <h3>Web Development Intern</h3>
+              <p class="org">TechNova Solutions, Dhaka</p>
+              <ul>
+                <li>Built responsive UI components used by 10,000+ monthly visitors.</li>
+                <li>Improved page load speed by 35% through image and code optimization.</li>
+                <li>Collaborated with designers and backend engineers in an Agile team.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item reveal">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <span class="date">2024 – Present</span>
+              <h3>Technical Lead</h3>
+              <p class="org">University Programming Club</p>
+              <ul>
+                <li>Organize weekly coding workshops for 60+ students.</li>
+                <li>Mentor juniors in competitive programming and web development.</li>
+                <li>Led a team of 5 to host the annual inter-university hackathon.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="t-item reveal">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <span class="date">2023 – 2024</span>
+              <h3>Volunteer Coordinator</h3>
+              <p class="org">Youth for Digital Bangladesh</p>
+              <ul>
+                <li>Taught basic digital literacy to 100+ school students.</li>
+                <li>Managed a volunteer team and scheduled outreach events.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES + ACHIEVEMENTS -->
+    <section class="section alt" id="certs">
+      <div class="container">
+        <h2 class="title reveal"><span>06</span> Certifications & Achievements</h2>
+        <div class="two-col">
+          <div>
+            <h3 class="sub reveal">🎓 Certifications</h3>
+            <div class="list-card reveal"><b>Responsive Web Design</b><span>freeCodeCamp · 2024</span></div>
+            <div class="list-card reveal"><b>JavaScript Algorithms & Data Structures</b><span>freeCodeCamp · 2024</span></div>
+            <div class="list-card reveal"><b>Google IT Support Professional</b><span>Coursera · 2025</span></div>
+            <div class="list-card reveal"><b>Python for Everybody</b><span>University of Michigan · 2023</span></div>
+          </div>
+          <div>
+            <h3 class="sub reveal">🏆 Achievements</h3>
+            <div class="list-card reveal"><b>ICPC</b><span>Competitive programming · 2025</span></div>
+            <div class="list-card reveal"><b>Meta Hacker Cup</b><span>Competitive programming · 2025</span></div>
+            <div class="list-card reveal"><b>Topcoder</b><span>Competitive programming · 2024</span></div>
+            <div class="list-card reveal"><b>BdOI</b><span>Olympiad In Informatics · 2024</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL / QUOTE -->
+    <section class="section">
+      <div class="container">
+        <blockquote class="quote reveal">
+          “Make it work, make it right, make it fast.”
+          <cite>My coding philosophy</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <h2 class="title reveal"><span>07</span> Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="reveal">
+            <p class="lead">Have a project, an internship opportunity or just want to say hi? My inbox is always open.</p>
+            <div class="contact-item">📧 <a href="mailto:asadurrahman219@gmail.com">asadurrahman219@gmail.com</a></div>
+            <div class="contact-item">📱 <a href="tel:+8801610766571">01610766571</a></div>
+            <div class="contact-item">📍 Mirpur-2, Dhaka, Bangladesh</div>
+          </div>
+          <form class="form reveal" id="contactForm" novalidate>
+            <label>Name<input type="text" id="name" placeholder="Your name" required /></label>
+            <label>Email<input type="email" id="email" placeholder="you@email.com" required /></label>
+            <label>Message<textarea id="message" rows="5" placeholder="Write your message..." required></textarea></label>
+            <p class="form-msg" id="formMsg" role="status"></p>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Syed Asadur Rahman. Designed & built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
